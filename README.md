@@ -1,1 +1,12 @@
 # YES_BANK_CLOSING_PRICE_PREDICTION
+# problem statement
+ Yes bank is a well_know bank in indian financial domain.Since2018, it has been in the news because of the fraud case involving Rana kapoor.owingto this fact, it was intresting to see how that impacted the stock price of the company and whether time series models or any other predictive models can do justice to such situation. This dataset has monthly stock prices of the bank since its insepction and include closing, starting,highest and lowest price of every month. The main objective is to predict the stock's closing price of the month
+ # Solution
+ In the backdrop of the 2018 fraud case concerning Yes Bank, our objective was to formulate a predictive model for the month's closing price. Employing the RandomForestRegressor, XGBoost, a linear model, and Ridge, I undertook a comprehensive analysis. The outcomes revealed that XGBoost emerged as the most effective model, demonstrating robust performance on both training and testing datasets, characterized by minimal Mean Absolute Error (MAE) and Root Mean Square Error (RMSE). This underscores the suitability of XGBoost for accurately forecasting Yes Bank's closing prices in the aftermath of the 2018 fraud case.
+ This undertaking involves assessing the repercussions of a fraud incident involving Rana Kapoor on Yes Bank's stock prices. The dataset utilized encompasses monthly stock prices of Yes Bank since its inception, encompassing details like closing, opening, highest, and lowest stock prices.
+
+In an effort to forecast the stock's closing price, I devised three models: Linear Regression, Random Forest, and XGBoost Regressor. These models underwent training using historical stock price data, incorporating diverse features such as the mean of Open, High, and Low attributes. Model performance was assessed using metrics such as RMSE (Root Mean Squared Error), adjusted R^2, and R^2 score. Notably, XGBoost exhibited superior performance among the three, attaining a commendable R^2 score and adjusted R^2, coupled with low RMSE and MAE errors.
+
+The XGBoost model's feature importance analysis proved instrumental in pinpointing the pivotal factors influencing the stock price.
+
+In summary, the project's objective was to enhance comprehension of the interplay between the fraud case and Yes Bank's stock prices. With completion, the project is now poised to make predictions on unseen data.
